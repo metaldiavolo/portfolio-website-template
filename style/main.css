@@ -1,0 +1,476 @@
+
+/* --- main settings start --- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font: 400 20px/40px 'Roboto', sans-serif;
+    background-color:  #FFF8E1;
+    color: #000;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul { 
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    list-style: none;
+    max-width: 1000px;
+}
+
+.warpper {
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- main settings end ---*/
+
+
+/* ------------------------*/
+
+
+/* --- animation start --- */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+.arrow:hover {
+    transform: scale(1.3);
+    transition: 1.5s;
+}
+
+.nav-link:hover {
+    transform: scale(1.3);
+    transition: 1.5s;
+}
+
+
+/* --- animation end --- */
+
+
+/* ------------------------*/
+
+
+/* --- scrollbar start ---*/
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 15px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #464646;
+}
+
+/* --- scrollbar end ---*/
+
+
+/* ------------------------*/
+
+
+/* --- header start --- */
+
+.header {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 270px;
+    top: 0px;
+    background-color: #FFF8E1;
+    opacity: 1;
+}
+
+.header-box {
+    display: flex;
+    gap: 270px;
+    flex-direction: row;
+    border-bottom: 2px solid #000;
+}
+
+.logo-holder {
+    font: 800 29px 'Otomanopee One', sans-serif;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: nowrap;
+    margin-bottom: 5px;
+}
+
+.header__title {
+    text-align: center;
+}
+
+.nav__list {
+    display: flex;
+    gap: 48px;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    color: #464646;
+}
+
+/* --- header end --- */
+
+
+/* ------------------------*/
+
+
+/* --- footer start --- */
+
+.footer-box {
+    background-color: #eee6cb;
+    align-content: center;
+}
+
+.footer-title {
+    font: 800 100px 'Otomanopee One', sans-serif;
+    margin-bottom: 15px;
+    margin-top: 48px;
+    text-align: center;
+    border-bottom: 2px solid #000;
+}
+
+.footer__info {
+    margin-top: 0px;
+    margin-bottom: 45px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+/* --- footer end --- */
+
+
+/* ------------------------*/
+
+
+/* --- portfolio main start --- */
+
+.portfolio__main {
+    background-color: #eee6cb;
+    text-align: center;
+}
+
+.portfolio-box {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    margin: 0px;
+}
+
+.portfolio__title {
+    font: 800 128px 'Otomanopee One', sans-serif;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.portfolio__desc {
+    font-size: 20px;
+    color: #464646;
+    margin-top: 0px;
+    width: 700px;
+    line-height: 25px;
+}
+
+.arrow {
+    margin-top: 25px;
+    margin-bottom: 48px;
+}
+
+/* --- portfolio main end --- */
+
+
+/* ------------------------*/
+
+
+/* --- portfolio main start --- */
+
+.about-box {
+    margin-top: 98px;
+    margin-bottom: 98px;
+    display: flex;
+    justify-content: space-between;
+    gap: 58px;
+}
+
+.about__title {
+    font: 800 77px 'Otomanopee One', sans-serif;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+
+.about_text {
+    line-height: 25px;
+    width: 450px;
+}
+
+.link__holder {
+    padding: 0px;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    gap: 15px;
+}
+
+.about__contat-link {
+    color: #464646;
+}
+
+/* --- portfolio main end --- */
+
+
+/* ------------------------*/
+
+
+/* --- skills start --- */
+
+.skills {
+    background-color: #eee6cb;
+}
+
+.skills-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.skills__title {
+    font: 800 64px 'Otomanopee One', sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 45px;
+}
+
+.list{
+    text-align: left;
+    margin-right: 0;
+}
+
+.expirience__holder {
+    margin: 0;
+	padding: 36px 0 36px 84px;
+	list-style: none;
+	background-image: url("../img/octicon_sparkle-fill-24.svg");
+	background-repeat: no-repeat;
+	background-position: left top 38px; 
+	background-size: 46px;
+    align-items: center;
+    align-content: center;
+}
+
+.skill__list {
+    margin: 0;
+    padding: 0;
+}
+
+.education__title, .expirience__title {
+    font: 700 36px 'Inter', sans-serif;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+.education__time,.expirience__time {
+    font: 600 22px 'Inter', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+
+.expirience__info, .education__info {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+
+.skill__nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 18px;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-name {
+    border-color: #000;
+    border-style: solid;
+    border-width: 2px;
+    color: #464646;
+    padding: 8px 35px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.hobbies__holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0px;
+}
+
+.hobbies__box {
+    margin: 5px;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 45px;
+    text-align: center;
+}
+
+.hobbies__name {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 10px;
+    color: #464646;
+}
+
+.expirience__info {
+    line-height: 25px;
+}
+
+.left {
+    width: 800px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+.right{
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+
+/* --- skills end --- */
+
+
+/* ------------------------*/
+
+
+/* --- works start --- */
+
+.works-box {
+    margin-top: 46px;
+    margin-bottom: 68px;
+}
+
+.works__title {
+    font: 800 96px 'Otomanopee One', sans-serif;
+    margin-bottom: 48px;
+    text-align: center;
+    border-bottom: 2px solid #000;
+}
+
+.works__holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.work__subtitle {
+    font: 700 40px 'Inter', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.work__desc {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: justify;
+    width: 280px;
+    margin-top: 15px;
+}
+
+.work__img {
+    border: 2px solid #000;
+    border-radius: 35px;
+    background-color: #eee6cb;
+    padding: 25px;
+    align-items: center;
+    align-content: center;
+}
+
+/* --- works end --- */
