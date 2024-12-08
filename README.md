@@ -24,3 +24,7 @@
 2. Open the `index.html` file in any browser.  
 
 Alternatively, view the live version here: [Portfolio Website Template Demo](https://metaldiavolo.github.io/portfolio-website-template/)  
+
+## Screenshots
+![Homepage](assets/images/homepage-screenshot.png)
+![Projects Section](assets/images/projects-screenshot.png)
