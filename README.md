@@ -28,3 +28,7 @@
 
 ## Contributions
 Feel free to suggest improvements or submit pull requests!
+
+## Screenshots
+![Homepage](assets/images/homepage-screenshot.png)
+![Projects Section](assets/images/projects-screenshot.png)
