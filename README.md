@@ -24,4 +24,7 @@
    ```bash  
    git clone https://github.com/metaldiavolo/portfolio-website-template.git  
    ```  
-2. Open the `index.html` file in any browser.   
+2. Open the `index.html` file in any browser.
+
+## Contributions
+Feel free to suggest improvements or submit pull requests!
