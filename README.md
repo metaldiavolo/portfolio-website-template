@@ -25,3 +25,13 @@
    git clone https://github.com/metaldiavolo/portfolio-website-template.git  
    ```  
 2. Open the `index.html` file in any browser.
+<<<<<<< HEAD
+=======
+
+## Contributions
+Feel free to suggest improvements or submit pull requests!
+
+## Screenshots
+![Homepage](assets/images/homepage-screenshot.png)
+![Projects Section](assets/images/projects-screenshot.png)
+>>>>>>> 7ee60fb6525053f4c3a7552c6e32608d3e136337
