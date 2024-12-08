@@ -17,7 +17,7 @@
 - **Interactivity**: Enhancing user interaction with features like modal windows, tooltips, and interactive elements.  
 
 ## Demo
-[Live Demo](https://metaldiavolo.github.io/portfolio-website-template/) 
+**Live Preview:** [Click here to view the live demo](https://metaldiavolo.github.io/portfolio-website-template/)  
 
 ## How to View  
 1. Clone the repository:  
