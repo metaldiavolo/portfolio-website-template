@@ -16,11 +16,12 @@
 - **Responsiveness**: Optimizing the website for various devices and screen sizes.  
 - **Interactivity**: Enhancing user interaction with features like modal windows, tooltips, and interactive elements.  
 
+## Demo
+[Live Demo](https://metaldiavolo.github.io/portfolio-website-template/) 
+
 ## How to View  
 1. Clone the repository:  
    ```bash  
    git clone https://github.com/metaldiavolo/portfolio-website-template.git  
    ```  
-2. Open the `index.html` file in any browser.  
-
-Alternatively, view the live version here: [Portfolio Website Template Demo](https://metaldiavolo.github.io/portfolio-website-template/)  
+2. Open the `index.html` file in any browser.   
