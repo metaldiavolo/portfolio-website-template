@@ -22,9 +22,10 @@
 - **CSS3**: Styling, layout, and initial design concepts.  
 
 ## Features  
-- Clean and minimalist design for showcasing portfolio content.  
-- Static structure with placeholders for future portfolio content.  
-
+- Clean and minimalist design for showcasing portfolio content.
+- Modern aesthetic
+- Static structure with placeholders for future portfolio content.
+- Easy-to-edit HTML and CSS structure
 
 ## Future Development Plans  
 - **Animations**: Adding smooth transitions and effects for an engaging user experience.  
