@@ -1,0 +1,94 @@
+@media (max-width: 768px) {
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
+        max-width: 100%;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+    }
+    
+    .about-img__holder{
+        display: none;
+    }
+
+    .container, .portfolio-box, .skills-box, .about-box {
+        padding: 5px 10px;
+        gap: 10px;
+    }
+
+    .container, .portfolio-box, .skills-box, .works__holder, .hobbies__holder, .about-box {
+        width: 100%; 
+        margin: 0 auto; 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    img {
+        max-width: 100%; 
+        height: auto;
+    }
+
+    body {
+        font-size: 16px; 
+        line-height: 1.5;
+        overflow-x: hidden; 
+    }
+
+    .header, .header-box {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .portfolio__title, .about__title, .skills__title, .works__title, .footer-title {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .portfolio-box, .skills-box, .about-box, .works__holder {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .portfolio__desc, .about_text, .work__desc {
+        width: 90%; 
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .hobbies__holder, .skill__nav {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .hobbies__box {
+        width: 100%;
+    }
+
+    .skill-name {
+        font-size: 14px; 
+        padding: 5px 10px;
+    }
+
+    .logo-holder {
+        font-size: 20px;
+    }
+
+    .nav__list {
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-title {
+        font-size: 28px;
+    }
+}
