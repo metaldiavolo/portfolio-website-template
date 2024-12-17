@@ -7,6 +7,17 @@
         max-width: 100%;
     }
 
+    img {
+        max-width: 100%; 
+        height: auto;
+    }
+
+    body {
+        font-size: 16px; 
+        line-height: 1.5;
+        overflow-x: hidden; 
+    }
+
     * {
         margin: 0;
         padding: 0;
@@ -29,17 +40,6 @@
         padding-right: 10px;
     }
     
-    img {
-        max-width: 100%; 
-        height: auto;
-    }
-
-    body {
-        font-size: 16px; 
-        line-height: 1.5;
-        overflow-x: hidden; 
-    }
-
     .header, .header-box {
         flex-direction: column;
         gap: 15px;
