@@ -28,16 +28,13 @@
         display: none;
     }
 
-    .container, .portfolio-box, .skills-box, .about-box {
-        padding: 5px 10px;
-        gap: 10px;
-    }
-
     .container, .portfolio-box, .skills-box, .works__holder, .hobbies__holder, .about-box {
         width: 100%; 
         margin: 0 auto; 
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 5px 10px;
+        gap: 10px;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
     
     .header, .header-box {
@@ -47,7 +44,7 @@
     }
 
     .portfolio__title, .about__title, .skills__title, .works__title, .footer-title {
-        font-size: 32px;
+        font-size: 40px;
         text-align: center;
         margin-bottom: 10px;
     }
@@ -60,8 +57,9 @@
 
     .portfolio__desc, .about_text, .work__desc {
         width: 90%; 
-        font-size: 14px;
-        margin: 0;
+        font-size: 18px;
+        margin-top: 15px;
+        line-height: 27px;
     }
 
     .hobbies__holder, .skill__nav {
@@ -70,7 +68,7 @@
     }
 
     .hobbies__box {
-        width: 100%;
+        width: 70%;
     }
 
     .skill-name {
@@ -88,7 +86,7 @@
         align-items: center;
     }
 
-    .footer-title {
-        font-size: 28px;
+    .works__title img{
+        width: 25px;
     }
 }
