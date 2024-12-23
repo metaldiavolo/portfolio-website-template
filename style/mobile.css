@@ -44,7 +44,7 @@
         display: block;
     }
 
-    .hobbies__list {
+    .hobbies__list, .hobbies__holder {
         align-content: baseline;
     }
 
@@ -54,10 +54,29 @@
         padding: 10px;
     }
 
+
+
     .portfolio__title, .about__title, .works__title, .footer-title {
         font-size: 40px;
         text-align: center;
         margin-bottom: 10px;
+    }
+
+    .work__subtitle, .education__title, .expirience__title {
+        font-size: 27px;
+    }
+
+
+    .expirience__time, .education__time {
+        font-size: 18px;
+    }
+
+    .expirience__info, .education__info {
+        font-size: 14px;
+    }
+
+    .expirience__holder {
+        background-size: 36px;
     }
 
     .skills__title {
@@ -87,8 +106,8 @@
     }
 
     .hobbies__box {
-        width: 80%;
-        padding: 10px;
+        width: 15%;
+        padding: 25px;
         text-align: center;
     }
 
