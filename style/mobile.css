@@ -1,5 +1,7 @@
 @media (max-width: 768px) {
 
+    /* --- mobile settings start --- */
+
     html, body {
         margin: 0;
         padding: 0;
@@ -23,30 +25,128 @@
         padding: 0;
         box-sizing: border-box; 
     }
-    
+
+    /* --- mobile settings end --- */
+
+    /* ------------------------ */
+
+    /* --- about section start --- */
+
     .about-img__holder{
         display: none;
     }
 
-    .container, .portfolio-box, .works__holder, .hobbies__holder, .about-box {
-        width: 100%; 
+    .about-box {
+        padding: 25px 10px;
         margin: 0 auto; 
-        padding: 5px 10px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
 
-    .about-box {
-        padding: 25px 10px;
+    .about__title {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 10px;
     }
-    
+
+    .about_text {
+        width: 90%; 
+        font-size: 18px;
+        margin-top: 15px;
+        line-height: 27px;
+    }
+
+    .about-box, .about__title, .about_text {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    /* --- about section end --- */
+
+    /* ------------------------ */
+
+    /* --- header section start --- */
+
+    .header, .header-box {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .logo-holder {
+        font-size: 20px;
+    }
+
+    .nav__list {
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* --- header section end --- */
+
+    /* ------------------------ */
+
+    /* --- portfolio section start --- */
+
+    .portfolio-box, .portfolio__title, .portfolio__desc {
+        width: 100%; 
+        margin: 0 auto; 
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .portfolio__title {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .portfolio__desc {
+        width: 90%; 
+        font-size: 18px;
+        margin-top: 15px;
+        line-height: 27px;
+    }
+
+    /* --- portfolio section end --- */
+
+    /* ------------------------ */
+
+    /* --- skills section start --- */
+
     .skills__list {
         align-content: baseline;
     }
 
-    .skills-box{
+    .skills-box {
         display: block;
     }
+
+    .skills__title {
+        font-size: 40px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .skill__nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 20px;
+    }
+
+    .skill-name {
+        font-size: 14px; 
+        padding: 5px 10px;
+    }
+
+    /* --- skills section end --- */
+
+    /* ------------------------ */
+
+    /* --- hobbies section start --- */
 
     .hobbies__list {
         position: relative;
@@ -61,22 +161,75 @@
         width: 24px;
     }
 
-    .header, .header-box {
-        flex-direction: column;
-        gap: 15px;
-        padding: 10px;
+    .hobbies__holder {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 20px;
+        justify-content: center;
     }
 
-    .portfolio__title, .about__title, .works__title, .footer-title {
+    .hobbies__box {
+        width: 85px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    /* --- hobbies section end --- */
+
+    /* ------------------------ */
+
+    /* --- footer section start --- */
+
+    .footer-title {
         font-size: 40px;
         text-align: center;
         margin-bottom: 10px;
     }
 
-    .work__subtitle, .education__title, .expirience__title {
+    /* --- footer section end --- */
+
+    /* ------------------------ */
+
+    /* --- works section start --- */
+
+    .works__holder {
+        width: 100%; 
+        margin: 0 auto; 
+        padding: 5px 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .works__title {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .works__title img {
+        width: 25px;
+    }
+
+    .work__subtitle {
         font-size: 27px;
     }
 
+    .work__desc {
+        width: 90%; 
+        font-size: 18px;
+        margin-top: 15px;
+        line-height: 27px;
+    }
+
+    /* --- works section end --- */
+
+    /* ------------------------ */
+
+    /* --- experience section start --- */
 
     .expirience__time, .education__time {
         font-size: 18px;
@@ -90,58 +243,10 @@
         background-size: 36px;
     }
 
-    .skills__title {
-        font-size: 40px;
-        margin-bottom: 10px;
+    .expirience__title, .education__title {
+        font-size: 27px;
     }
 
-    .portfolio-box, .skills-box, .about-box, .works__holder {
-        flex-direction: column;
-        gap: 15px;
-        align-items: center;
-    }
-
-    .portfolio__desc, .about_text, .work__desc {
-        width: 90%; 
-        font-size: 18px;
-        margin-top: 15px;
-        line-height: 27px;
-    }
-
-    .hobbies__holder, .skill__nav {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 5px;
-        margin-top: 20px;
-    }
-
-    .hobbies__holder {
-        justify-content: center;
-    }
-
-    .hobbies__box {
-        width: 85px;
-        padding: 15px;
-        text-align: center;
-    }
-
-    .skill-name {
-        font-size: 14px; 
-        padding: 5px 10px;
-    }
-
-    .logo-holder {
-        font-size: 20px;
-    }
-
-    .nav__list {
-        gap: 10px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .works__title img{
-        width: 25px;
-    }
-
+    /* --- experience section end --- */
+    
 }
