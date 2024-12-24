@@ -26,16 +26,12 @@
 - Modern aesthetic
 - Static structure with placeholders for future portfolio content.
 - Easy-to-edit HTML and CSS structure
+- Adaptability for different devices
 
 ## Future Development Plans  
 - **Animations**: Adding smooth transitions and effects for an engaging user experience.
      - [x] base animation
      - [ ] more advanced animation
-
-- **Responsiveness**: Optimizing the website for various devices and screen sizes.
-   - [x] desktop
-   - [x] mobile
-   - [ ] table
          
 - **Interactivity**: Enhancing user interaction with features like modal windows, tooltips, and interactive elements.  
 
