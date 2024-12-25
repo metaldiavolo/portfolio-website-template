@@ -1,3 +1,5 @@
+/* --- mobile @media start --- */
+
 @media (max-width: 768px) {
 
     /* --- mobile settings start --- */
@@ -175,6 +177,7 @@
         justify-content: center;
         width: 100%;
         margin: 0 auto;
+        border-radius: 5px;
     }
 
     .hobbies__box {
@@ -266,3 +269,109 @@
     /* --- experience section end --- */
     
 }
+/* --- mobile @media end --- */
+
+/* ------------------------ */
+
+/* --- table @media start --- */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* --- main settings start --- */
+    .container {
+        max-width: 90%;
+        padding: 0 20px;
+    }
+    /* --- main settings end --- */
+
+    /* ------------------------ */
+
+    /* --- header start --- */
+    .header-box {
+        gap: 100px;
+    }
+
+    .nav__list {
+        gap: 25px;
+    }
+    /* --- header end --- */
+
+    /* ------------------------ */
+
+    /* --- portfolio main start --- */
+    .portfolio__title {
+        font-size: 90px;
+    }
+
+    .portfolio__desc {
+        width: 90%;
+    }
+    /* --- portfolio main end --- */
+
+    /* ------------------------ */
+
+    /* --- about start --- */
+    .about-box {
+        gap: 30px;
+    }
+
+    .about-img__holder img {
+        width: 400px;
+    }
+
+    .about_text {
+        width: 350px;
+    }
+    /* --- about end --- */
+
+    /* ------------------------ */
+
+    /* --- skills start --- */
+    .skills-box {
+        gap: 30px;
+    }
+
+    .skill__nav {
+        gap: 12px;
+    }
+
+    .skill-name {
+        font-size: 22px;
+        padding: 6px 25px;
+    }
+
+    .left, .right {
+        margin: 48px 0;
+    }
+    /* --- skills end --- */
+
+    /* ------------------------ */
+
+    /* --- works start --- */
+    .works__holder {
+        gap: 25px;
+    }
+
+    .work__img {
+        width: 280px;
+    }
+
+    .work__desc {
+        width: 250px;
+    }
+    /* --- works end --- */
+
+    /* ------------------------ */
+
+    /* --- hobbies start --- */
+    .hobbies__holder {
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .hobbies__box {
+        margin: 3px;
+    }
+    /* --- hobbies end --- */
+}
+
+/* --- table @media end --- */
